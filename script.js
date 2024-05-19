@@ -1,7 +1,7 @@
 
 
-const CONGRESS_API_KEY;
-const OPENAI_API_KEY;
+let CONGRESS_API_KEY;
+let OPENAI_API_KEY;
 const apiUrl = `https://api.congress.gov/v3/bill?api_key=${congressApiKey}`;
 let bills = [];
 let currentIndex = 0;
